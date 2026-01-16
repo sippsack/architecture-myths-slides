@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Mythos: Qualität ist uns wichtig!</title>
+			<meta name="description" content="Hört man oft - entpuppt sich meist als Mythos">
+		<meta name="author" content="Tom Asel">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="../../assets/vendor/revealjs/css/reset.css">
+		<link rel="stylesheet" href="../../assets/vendor/revealjs/css/reveal.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../../assets/vendor/prism-monokai.css">
+
+		<!-- Tidy Styles -->
+		<link rel="stylesheet" href="../../assets/css/styles.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../assets/vendor/revealjs/css/print/pdf.css' : '../../assets/vendor/revealjs/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+						<section class="section-title">
+							<h1>Qualität ist uns wichtig!</h1>
+							<h2>Eine Aussage, die man oft hört. Meist bleibt sie ein Mythos!</h2>
+						
+						</section>		<section>
+									<section data-markdown="slides/20-szene/10-intro.md" data-separator-notes="^Note:"></section>		<section class="section-title" data-background-image="./images/memes/american-chopper/1.jpeg">
+										<h1 style="color: #f75323">Wir achten zu wenig auf Qualität!</h1>
+									</section>
+									<section class="section-title" data-background-image="./images/memes/american-chopper/2.jpeg">
+										<h1  style="color: #f75323">QUALITÄT IST UNS WICHTIG!! !1!elf!</h1>
+									</section>
+									<section class="section-title" data-background-image="./images/memes/american-chopper/3.jpeg">
+										<h1  style="color: #f75323">Ach ja, dann nenn mir unsere 3 wichtigsten Qualitätsziele!</h1>
+									</section>
+									<section class="section-title" data-background-image="./images/memes/american-chopper/4.jpeg">
+										<h1 style="color: #f75323">Das dokumentieren wir am ENDE! WIE IMMER!!!</h1>
+									</section>
+									<section class="section-title" data-background-image="./images/memes/american-chopper/5.jpeg">
+										<h1 style="color: #f75323">Und worauf basieren unsere Entscheidungen dann bis dahin?</h1>
+									</section>
+						</section>
+						<section>
+									<section data-markdown="slides/30-problem/10-intro.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/30-problem/20-architektur.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/30-problem/30-entscheidungen.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/30-problem/40-woher.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/30-problem/50-zusammenfassung.md" data-separator-notes="^Note:"></section>		</section>
+						<section>
+									<section data-markdown="slides/40-symptome/10-main.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/40-symptome/20-doku.md" data-separator-notes="^Note:"></section>		</section>
+						<section>
+									<section data-markdown="slides/50-loesung/10-main.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/50-loesung/20-details.md" data-separator-notes="^Note:"></section>		</section>
+						<section>
+									<section data-markdown="slides/60-qualitaet/10-merkmale.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/60-qualitaet/20-baum.md" data-separator-notes="^Note:"></section>		<section>
+									<h3>Beispiel</h3>
+									<img src="./images/quality-tree.png" alt="Qualitätsbaum Beispiel" />
+									</section>
+									<section>
+									<h2>Die traurige Realität</h2>
+									<img src="./images/sad-but-true.png" alt="Die traurige Realität" />
+									</section>
+						</section>
+			</div>
+		</div>
+
+		<script src="../../assets/vendor/revealjs/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: false,
+				hash: true,
+				history: true,
+				width: 1280,
+				height: 720,
+				margin: 0.1,
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: '../../assets/vendor/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../../assets/vendor/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					// { src: '../../assets/vendor/revealjs/plugin/highlight/highlight.js', async: true },
+					// { src: '../../assets/vendor/revealjs/plugin/search/search.js', async: true },
+					// { src: '../../assets/vendor/revealjs/plugin/zoom-js/zoom.js', async: true },
+					{ src: '../../assets/vendor/revealjs/plugin/notes/notes.js', async: true },
+					{ src: '../../assets/vendor/revealjs/plugin/notes-server/client.js', async: true },
+					{ src: '../../assets/vendor/prism.js', async: true }
+					// { src: 'https://platform.twitter.com/widgets.js', async: true }
+				]
+			})
+		</script>
+	</body>
+</html>
