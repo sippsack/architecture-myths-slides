@@ -369,3 +369,58 @@ ul + pre code {
 pre + pre {
   margin-top: 1em;
 }
+
+.reveal .icon {
+  width: 0.9em;
+  height: 0.9em;
+  vertical-align: middle;
+  margin-right: 0.4em;
+}
+
+.reveal .bigger {
+  font-size: 1.8em;
+  padding-top: 0.5em;
+}
+
+.reveal .highlight {
+  display: inline-block;
+  background: rgba(255, 235, 160, 0.85);
+  padding: 0.15em 0.4em;
+  border-radius: 6px;
+}
+
+.reveal .icon-round {
+  width: 2em;
+  height: 2em;
+  background: rgba(230, 240, 255, 0.9); /* einfarbig */
+  border-radius: 999px; /* rund */
+  padding: 0.4em; /* Abstand um das Icon */
+  box-sizing: border-box;
+  object-fit: contain;
+  /* 🔑 verhindert Abschneiden */
+  overflow: visible;
+  display: inline-flex;
+  vertical-align: middle;
+}
+
+.reveal .icon-badge {
+  /* Größe des Kreises */
+  width: 2.4em;
+  height: 2.4em;
+  /* Runder Hintergrund */
+  background: #e6edf5;
+  border-radius: 50%;
+  /* 🔑 wichtig: Platz für das SVG */
+  padding: 0.45em;
+  /* SVG korrekt skalieren */
+  box-sizing: border-box;
+  object-fit: contain;
+  /* 🔑 verhindert Abschneiden */
+  overflow: visible;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.reveal .transparent {
+  opacity: 0.4;
+}
