@@ -94,7 +94,10 @@ pre + pre {
 	vertical-align: middle;
 }
 
-
 .reveal .transparent {
 	opacity: 0.4;
+}
+
+.reveal section img {
+	max-height: 75vh;
 }

@@ -1,3 +1,3 @@
 # Risikoorientiert
 
-Bild: so viel Architekturarbeit, um den Risiken zu begegnen, aber nicht zu viel
+<img src="./images/risikogetrieben.png" alt="Risikoorientiert" />
