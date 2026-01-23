@@ -153,8 +153,16 @@ h1 {
   font-size: 4rem;
   line-height: 1.15em;
 }
-.section-title h2 {
-  color: var(--faded-heading-color);
+
+h2 {
+  font-family: var(--heading-font);
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 1em;
+  margin-bottom: 1.2em;
+}
+h2 strong {
+  color: var(--secondary-color);
 }
 
 cite {
@@ -320,6 +328,9 @@ img[src="./images/architecture/dependencies.png"] {
 }
 img[src="./images/organizations/open-office.jpg"] {
   border: 10px solid white !important;
+}
+img.vignette {
+  border-radius: 50%;
 }
 
 .reveal .slides {

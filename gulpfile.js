@@ -41,7 +41,7 @@ function watcher () {
 	// watch('theme/fonts/**/*', series(fonts, reload))
 	// watch('images/**/*.{gif,jpg,png,svg}', series(images, reload))
 	watch('presentations/**/slides/**/*.{html,md}', series(html, reload))
-	watch('presentations/**/config.js', series(html, reload))
+	watch('presentations/**/config.js', series(html, indexHtml, reload))
 }
 
 
@@ -156,6 +156,45 @@ function getPresentations () {
 	})
 }
 
+function indexHtml () {
+	const presentations = getPresentations().map(name => {
+		const configPath = path.resolve(`./presentations/${name}`, 'config.js')
+		let config = { title: name }
+		if (fs.existsSync(configPath)) {
+			delete require.cache[require.resolve(configPath)]
+			config = require(configPath)
+		}
+		return { name, ...config }
+	})
+
+	const links = presentations.map(p => {
+		const desc = p.description ? '<p>' + p.description + '</p>' : ''
+		return '<a href="presentations/' + p.name + '/index.html"><h2>' + (p.title || p.name) + '</h2>' + desc + '</a>'
+	}).join('\n\t')
+
+	const html = `<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="UTF-8">
+	<title>Präsentationen</title>
+	<style>
+		body { font-family: system-ui, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+		a { display: block; padding: 1rem; margin: 0.5rem 0; background: #f5f5f5; text-decoration: none; color: #333; border-radius: 4px; }
+		a:hover { background: #e0e0e0; }
+		h2 { margin: 0; }
+		p { margin: 0.25rem 0 0; color: #666; font-size: 0.9rem; }
+	</style>
+</head>
+<body>
+	<h1>Präsentationen</h1>
+	${links}
+</body>
+</html>`
+
+	fs.writeFileSync('./index.html', html)
+	return Promise.resolve()
+}
+
 function _findSlides (presentationPath, slidesPath, tree) {
 	let filtered = []
 
@@ -204,6 +243,7 @@ function build (done) {
 		parallel(
 			css,
 			html,
+			indexHtml,
 			// fonts,
 			// images,
 			// markdown,

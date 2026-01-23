@@ -19,6 +19,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^5.1.0",
     "merge-stream": "^2.0.0",
+    "playwright": "^1.57.0",
     "reveal.js": "^3.8.0",
     "sass": "^1.83.0"
   }
