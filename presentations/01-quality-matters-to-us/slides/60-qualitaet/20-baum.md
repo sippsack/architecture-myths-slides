@@ -1,3 +1,5 @@
+<img src="./images/tree.png" class="img-right">
+
 ## Qualitätsbaum
 
 - Beschreibt wichtigste Qualitätsmerkmale
@@ -7,3 +9,5 @@
     - Betroffener Systemteil
     - Erwartetes Verhalten
     - Antwortmetrik
+  
+<img src="./images/quality-tree-dark.png" style="width:40%; margin-top: -1em">
