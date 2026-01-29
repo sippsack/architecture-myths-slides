@@ -1,10 +1,9 @@
+<img src="/assets/images/memes/breaking-bad/walter-jesse-lego.png" class="img-right" width="50%"/>
+
 # Symptome 
 
-<img src="/assets/images/icons/symptom.svg" class="img-right">
+* Verunsicherung
+* Subotpimales Design
+* endlose Diskussionen ...
 
-* Symptom 1
-* Symptom 2
-* Symptom 3
-* Symptom 4
-* Symptom 5
-* Symptom 6
+
