@@ -153,6 +153,9 @@ h1 {
   font-size: 4rem;
   line-height: 1.15em;
 }
+.section-title strong {
+  color: var(--secondary-color);
+}
 
 h2 {
   font-family: var(--heading-font);
