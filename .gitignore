@@ -2,3 +2,5 @@
 build/*
 node_modules/*
 .idea
+/presentations/**/index.html
+/index.html
