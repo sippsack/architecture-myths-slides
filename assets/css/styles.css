@@ -153,6 +153,9 @@ h1 {
   font-size: 4rem;
   line-height: 1.15em;
 }
+.section-title .nomargin {
+  margin: 0.2em 0 1em !important;
+}
 .section-title strong {
   color: var(--secondary-color);
 }
@@ -445,4 +448,20 @@ pre + pre {
 
 .half-width {
   max-width: 50%;
+}
+
+#home-button {
+  text-decoration: none;
+  font-size: 0.8em;
+  color: white;
+  position: fixed;
+  bottom: 15px;
+  left: 20px;
+  z-index: 9999;
+  opacity: 0.2;
+  transition: opacity 0.2s;
+}
+
+#home-button:hover {
+  opacity: 0.6;
 }
