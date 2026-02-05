@@ -1,0 +1,11 @@
+# Gemeinsamkeiten
+
+- alle 3 fokussieren auf techneische Separation von Businesslogik und technischem Code
+- Domnain innen, Technik aussen
+- Entkopplung über Interfaces
+- Dependency Inversion
+
+
+
+
+
