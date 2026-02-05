@@ -1,0 +1,49 @@
+<section class="section-title"
+         data-background-image="./images/onion.png"
+         data-background-size="50% auto"
+         data-background-position="right">
+    <h1 style="margin-top: 0.5em">Palermo, 2008</h1>
+    <h2 class="half-width">The Onion Architecture</h2>
+    <ul class="half-width">
+        <li>macht Aussagen über Struktur “des Inneren”</li>
+        <li>Fordert Interfaces, aber</li>
+        <ul>
+            <li><strong>macht keine Aussagen über konkrete Bausteine</strong></li>
+        </ul>
+        <li>Kritikpunkte:</li>
+        <ul>
+            <li>“Layeritis”: ggf. kein Benefit durch zusätzliche Schichten</li>
+            <li>DDD: Domain Services getrennt vom Model?</li>
+        </ul>
+    </ul>
+
+    <aside class="notes">
+        <h2>Offensichtlich eine Variante der Relaxed Layer Architecture</h2>
+        <p><strong>Nachteile:</strong></p>
+        <ul>
+            <li>Erfordert disziplinierte, strikte Umsetzung</li>
+            <li>Codebasis kann für kleinere Vorhaben zu komplex strukturiert sein</li>
+            <li>Trennung von Domain Services und Domain Model: Wirklich praktikabel?</li>
+            <li>Wie würden wir das paketieren?</li>
+            <li><em>Meinung:</em> Obwohl auf den ersten Blick offenbar DDD eine zentrale Motivation darstellt, verleitet Onion zu unsauberer Strukturierung der Domain-Logik</li>
+        </ul>
+
+        <p>→ Subtile Unterschiede zwischen Hexagonal und Onion schon erkennbar</p>
+
+        <h3>Gemeinsamkeiten Onion & Hexagonal</h3>
+        <ul>
+            <li>Strikte Trennung von Applikation und Infrastruktur-Code</li>
+            <li>Entkopplung über dedizierte Adapter</li>
+        </ul>
+
+        <h3>Onion-spezifisch</h3>
+        <ul>
+            <li>Macht Aussage über "das Innere" der Applikation</li>
+            <li>Erlaubt auch noch mehr Schichten innerhalb der Applikation</li>
+            <li>Entspricht einer Relaxed-Layer-Architecture mit strikter Anwendung des Dependency Inversion Prinzips</li>
+            <li>Ports (Interfaces) sind implizit</li>
+        </ul>
+    </aside>
+</section>
+
+

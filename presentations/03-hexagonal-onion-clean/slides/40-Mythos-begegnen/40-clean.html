@@ -1,0 +1,66 @@
+<section class="section-title"
+         data-background-image="./images/clean.png"
+         data-background-size="50% auto"
+         data-background-position="right">
+    <h1 style="margin-top: 0.5em">Martin, 2012</h1>
+    <h2 class="half-width">Clean Architecture</h2>
+
+    <strong>Konsolidierung ähnlicher Ansätze:</strong>
+    <ul class="half-width">
+        <li>BCE (Jacobsen, 1992)</li>
+        <li>Ports & Adapters (Cockburn, 2000)</li>
+        <li>Onion Architecture (Palermo, 2008)</li>
+        <li>DCI (Coplien, Reenskaug, 2010)</li>
+    </ul>
+    <br />
+    <strong>Explizite Hinweise zur Umsetzung, z.B:</strong>
+    <ul class="half-width">
+        <li>Anzahl der Schichten nicht fest vorgegeben(!)</li>
+        <li>Nur simple Datenstrukturen sollten Schichtengrenzen überschreiten</li>
+        <li>Austauschbarkeit von Schichten / Segmenten, wenn diese obsolete werden → Evolution</li>
+    </ul>
+
+    <aside class="notes">
+        <h3>Konsolidierung ähnlicher Ansätze:</h3>
+        <ul>
+            <li><strong>Onion Architecture</strong> (Jeffrey Palermo, 2008) – Feinere Aufteilung in Form von Ringen</li>
+            <li><strong>Clean Architecture</strong> (Robert C. Martin, 2012) – Fokus auf Modularität anstatt
+                Adaptionsfähigkeit
+            </li>
+        </ul>
+
+        <h3>Dependency Rule</h3>
+        <p>Abhängigkeiten sind nur zu weiter innen liegenden Ringen gestattet.</p>
+
+        <h3>Ziele dieses Ansatzes:</h3>
+        <ul>
+            <li>Trennung von fachlicher und technischer Implementierung (Modularität)</li>
+            <li>Flexibilität bzgl. Technologien, Infrastruktur und Umsystemen (Adaptionsfähigkeit)</li>
+        </ul>
+
+        <h3>Typische Ringe:</h3>
+        <ul>
+            <li><strong>Core → Domain:</strong> Modell der Domäne</li>
+            <li><strong>Core → Domain Services:</strong> Algorithmen und Prozesse der Domäne</li>
+            <li><strong>Application:</strong> Orchestrierung von Fachlichkeit und Informationen von Außen</li>
+            <li><strong>Infrastructure:</strong> Ring bestehend aus vielen Teilstücken
+                <ul>
+                    <li>Technologien und Frameworks</li>
+                    <li>Adapter zu Umsystemen</li>
+                    <li>Schnittstellen</li>
+                    <li>Tests (Outside-In-Testing)</li>
+                </ul>
+            </li>
+        </ul>
+
+        <h3>Quellen:</h3>
+        <ul>
+            <li>
+                <a href="https://www.maibornwolff.de/know-how/von-schichten-zu-ringen-hexagonale-architekturen-erklaert/">MaibornWolff:
+                    Von Schichten zu Ringen</a></li>
+            <li>Hexagonal architecture – Alistair Cockburn</li>
+            <li>The Onion Architecture: part 1 – Jeffrey Palermo</li>
+        </ul>
+    </aside>
+</section>
+
