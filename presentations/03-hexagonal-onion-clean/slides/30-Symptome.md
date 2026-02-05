@@ -2,7 +2,7 @@
 
 # Symptome 
 
-* Verunsicherung
+* FUD <strong>Fear, Uncertainty, Doubt</strong>
 * Subotpimales Design
 * endlose Diskussionen ...
 
