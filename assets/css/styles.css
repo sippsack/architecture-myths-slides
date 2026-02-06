@@ -195,6 +195,10 @@ table + cite {
   color: #555;
 }
 
+strong {
+  color: var(--secondary-color);
+}
+
 ul {
   padding-left: 0.1em;
 }
@@ -404,6 +408,7 @@ pre + pre {
   background: rgba(255, 235, 160, 0.85);
   padding: 0.15em 0.4em;
   border-radius: 6px;
+  color: var(--background-color);
 }
 
 .reveal .icon-round {
