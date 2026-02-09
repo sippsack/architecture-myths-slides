@@ -167,7 +167,7 @@ function indexHtml () {
 		return { name, ...config }
 	})
 
-	const links = presentations.map(p => {
+	const links = presentations.filter(p => (p.title || p.name).startsWith('#')).map(p => {
 		const desc = p.description ? '<p>' + p.description + '</p>' : ''
 		return '<a href="presentations/' + p.name + '/index.html"><h2>' + (p.title || p.name) + '</h2>' + desc + '</a>'
 	}).join('\n\t')
