@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>#03 - Onion/Clean/Hexagonal</title>
+			<meta name="description" content="… das ist doch alles das Selbe!">
+		<meta name="author" content="Tom Asel">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="../../assets/vendor/revealjs/css/reset.css">
+		<link rel="stylesheet" href="../../assets/vendor/revealjs/css/reveal.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../../assets/vendor/prism-monokai.css">
+
+		<!-- Tidy Styles -->
+		<link rel="stylesheet" href="../../assets/css/styles.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../assets/vendor/revealjs/css/print/pdf.css' : '../../assets/vendor/revealjs/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+						<section class="section-title" data-background-image="./images/clean-hexagonion.png" data-background-position="right" data-background-size="50% auto">
+							<h1>Hexagonal / Clean / Onion - Architektur</h1>
+							<h2>Das ist doch alles das Selbe!</h2>
+							<h2><strong>... oder?</strong></h2>
+						</section>		<section>
+									<section data-markdown="slides/10-szene/10-intro.md" data-separator-notes="^Note:"></section>		<section class="section-title"
+											 data-background-image="/assets/images/memes/breaking-bad/breaking-bad-argument-1.png"
+											 data-background-size="50% auto"
+											 data-background-position="left">
+										<h1 style="margin-left:55%">… alles das Gleiche!</h1>
+									</section>
+									
+									<section class="section-title" data-background-image="/assets/images/memes/breaking-bad/breaking-bad-argument-2.png"
+											 data-background-size="50% auto"
+											 data-background-position="right">
+										<h1 style="margin-top: 2em">Es gibt viele Gemeinsamkeiten, aber auch Unterschiede.</h1>
+									</section>
+									
+									<section class="section-title"
+											 data-background-image="/assets/images/memes/breaking-bad/breaking-bad-argument-3.png"
+											 data-background-size="50% auto"
+											 data-background-position="left">
+										<h1 style="margin-left:55%">Die sind in der Praxis nicht relevant</h1>
+									</section>
+									
+									<section class="section-title" data-background-image="/assets/images/memes/breaking-bad/breaking-bad-argument-4.png"
+											 data-background-size="50% auto"
+											 data-background-position="right">
+										<h1 style="margin-top: 2em">Am Ende sind das alles auch nur Schichten!</h1>
+									</section>
+									
+									<section class="section-title"
+											 data-background-image="/assets/images/memes/breaking-bad/breaking-bad-argument-5.png"
+											 data-background-size="50% auto"
+											 data-background-position="left">
+										<h1 style="margin-left:55%; margin-top: 3em"><strong>HAB ICH DIR GAR NICHTS BEIGBERACHT, JESSE?!!</strong></h1>
+									</section>
+						</section>
+						<section>
+									<section data-markdown="slides/20-problem/10-Was-ist-das-Problem.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/20-problem/20-Was-ist-das-Problem.md" data-separator-notes="^Note:"></section>		</section>
+						<section data-markdown="slides/30-Symptome.md" data-separator-notes="^Note:"></section>		<section>
+									<section class="section-title">
+									    <h1> Wie begegnen wir dem Mythos?</h1>
+									    <h2>Unterschiede verstehen</h2>
+									    <h2><strong>Geschichtsstunde!</strong></h2>
+									</section>
+									
+									
+									
+									<section class="section-title"
+									         data-background-image="./images/dependency-rule.svg"
+									         data-background-size="70% auto"
+									         data-background-position="right">
+									
+									<h1 style="margin-top: 2em">Gemeinsamkeiten</h1>
+									
+									<ul class="half-width">
+									  <li>Dependency Inversion</li>
+									  <li><strong>Dependency Rule:</strong> Code-Abhängigkeiten nur nach innen</li>
+									  <li >Entkopplung über Interfaces</li>
+									  <li>Struktur: Trennung von Fachlichkeit und Technik</li>
+									  <ul>
+									    <li>Domain innen, Technik aussen</li>
+									  </ul>
+									
+									</ul>
+									
+									</section>
+									
+									
+									
+									
+									
+									
+									<section class="section-title"
+									         data-background-image="./images/hexagonal.svg"
+									         data-background-size="50% auto"
+									         data-background-position="right">
+									    <h1 style="margin-top: 0.5em">Cockburn, 2005</h1>
+									    <h2 class="half-width">Hexagonal Architecture <br />(Ports & Adapter)</h2>
+									    <ul>
+									        <li>Kennt nur "innen" (Application) und "aussen" (alles Andere)</li>
+									        <li>Strikte Verantwortlichkeiten der Bausteine:</li>
+									        <ul>
+									            <li><strong>Ports:</strong> fachlich motivierte Interfaces</li>
+									            <li><strong>Adapter:</strong> technische Anbindung an Umwelt</li>
+									            <li><strong>External Actor</strong> Systeme, Prozesse, Rollen, Benutzer, ...</li>
+									            <li><strong>Anbindung:</strong> Driven / Driving </li>
+									        </ul>
+									    </ul>
+									    <strong>→ Fokus:</strong> Interaktion von Application und Umwelt
+									</section>
+									<section class="section-title"
+									         data-background-image="./images/onion.svg"
+									         data-background-size="50% auto"
+									         data-background-position="right">
+									    <h1 style="margin-top: 0.5em">Palermo, 2008</h1>
+									    <h2 class="half-width">The Onion Architecture</h2>
+									    <ul class="half-width">
+									        <li>macht Aussagen über Struktur “des Inneren”</li>
+									        <li>Fordert Interfaces, aber</li>
+									        <ul>
+									            <li><strong>macht keine Aussagen über konkrete Bausteine</strong></li>
+									        </ul>
+									        <li>Kritikpunkte:</li>
+									        <ul>
+									            <li>“Layeritis”: ggf. kein Benefit durch zusätzliche Schichten</li>
+									            <li>DDD: Domain Services getrennt vom Model?</li>
+									        </ul>
+									    </ul>
+									
+									    <aside class="notes">
+									        <h2>Offensichtlich eine Variante der Relaxed Layer Architecture</h2>
+									        <p><strong>Nachteile:</strong></p>
+									        <ul>
+									            <li>Erfordert disziplinierte, strikte Umsetzung</li>
+									            <li>Codebasis kann für kleinere Vorhaben zu komplex strukturiert sein</li>
+									            <li>Trennung von Domain Services und Domain Model: Wirklich praktikabel?</li>
+									            <li>Wie würden wir das paketieren?</li>
+									            <li><em>Meinung:</em> Obwohl auf den ersten Blick offenbar DDD eine zentrale Motivation darstellt, verleitet Onion zu unsauberer Strukturierung der Domain-Logik</li>
+									        </ul>
+									
+									        <p>→ Subtile Unterschiede zwischen Hexagonal und Onion schon erkennbar</p>
+									
+									        <h3>Gemeinsamkeiten Onion & Hexagonal</h3>
+									        <ul>
+									            <li>Strikte Trennung von Applikation und Infrastruktur-Code</li>
+									            <li>Entkopplung über dedizierte Adapter</li>
+									        </ul>
+									
+									        <h3>Onion-spezifisch</h3>
+									        <ul>
+									            <li>Macht Aussage über "das Innere" der Applikation</li>
+									            <li>Erlaubt auch noch mehr Schichten innerhalb der Applikation</li>
+									            <li>Entspricht einer Relaxed-Layer-Architecture mit strikter Anwendung des Dependency Inversion Prinzips</li>
+									            <li>Ports (Interfaces) sind implizit</li>
+									        </ul>
+									    </aside>
+									</section>
+									
+									
+									<section class="section-title"
+									         data-background-image="./images/clean-architecture-legende.svg"
+									         data-background-size="50% auto"
+									         data-background-position="right">
+									    <h1 style="margin-top: 0.5em">Martin, 2012</h1>
+									    <h2 class="half-width">Clean Architecture</h2>
+									
+									    <strong>Konsolidierung ähnlicher Ansätze:</strong>
+									    <ul class="half-width">
+									        <li>BCE (Jacobsen, 1992)</li>
+									        <li>Ports & Adapters (Cockburn, 2000)</li>
+									        <li>Onion Architecture (Palermo, 2008)</li>
+									        <li>DCI (Coplien, Reenskaug, 2010)</li>
+									    </ul>
+									    <br />
+									    <strong>Explizite Hinweise zur Umsetzung, z.B:</strong>
+									    <ul class="half-width">
+									        <li>Anzahl der Schichten nicht fest vorgegeben(!)</li>
+									        <li>Nur simple Datenstrukturen sollten Schichtengrenzen überschreiten</li>
+									        <li>Austauschbarkeit von Schichten / Segmenten, wenn diese obsolete werden → Evolution</li>
+									    </ul>
+									
+									    <aside class="notes">
+									        <h3>Konsolidierung ähnlicher Ansätze:</h3>
+									        <ul>
+									            <li><strong>Onion Architecture</strong> (Jeffrey Palermo, 2008) – Feinere Aufteilung in Form von Ringen</li>
+									            <li><strong>Clean Architecture</strong> (Robert C. Martin, 2012) – Fokus auf Modularität anstatt
+									                Adaptionsfähigkeit
+									            </li>
+									        </ul>
+									
+									        <h3>Dependency Rule</h3>
+									        <p>Abhängigkeiten sind nur zu weiter innen liegenden Ringen gestattet.</p>
+									
+									        <h3>Ziele dieses Ansatzes:</h3>
+									        <ul>
+									            <li>Trennung von fachlicher und technischer Implementierung (Modularität)</li>
+									            <li>Flexibilität bzgl. Technologien, Infrastruktur und Umsystemen (Adaptionsfähigkeit)</li>
+									        </ul>
+									
+									        <h3>Typische Ringe:</h3>
+									        <ul>
+									            <li><strong>Core → Domain:</strong> Modell der Domäne</li>
+									            <li><strong>Core → Domain Services:</strong> Algorithmen und Prozesse der Domäne</li>
+									            <li><strong>Application:</strong> Orchestrierung von Fachlichkeit und Informationen von Außen</li>
+									            <li><strong>Infrastructure:</strong> Ring bestehend aus vielen Teilstücken
+									                <ul>
+									                    <li>Technologien und Frameworks</li>
+									                    <li>Adapter zu Umsystemen</li>
+									                    <li>Schnittstellen</li>
+									                    <li>Tests (Outside-In-Testing)</li>
+									                </ul>
+									            </li>
+									        </ul>
+									
+									        <h3>Quellen:</h3>
+									        <ul>
+									            <li>
+									                <a href="https://www.maibornwolff.de/know-how/von-schichten-zu-ringen-hexagonale-architekturen-erklaert/">MaibornWolff:
+									                    Von Schichten zu Ringen</a></li>
+									            <li>Hexagonal architecture – Alistair Cockburn</li>
+									            <li>The Onion Architecture: part 1 – Jeffrey Palermo</li>
+									        </ul>
+									    </aside>
+									</section>
+									
+									<section class="section-title"
+									         data-background-image="./images/wtf.png"
+									         data-background-size="45% auto"
+									         data-background-position="right">
+									    <h1 style="margin-top: 0.5em">Wir alle, heute</h1>
+									    <h2 class="half-width">Ok, ... und jetzt?</h2>
+									
+									    <ul class="half-width">
+									        <li>Hexagonal, Onion, Clean machen Unterschiedliche Aussagen bzgl:</li>
+									        <ul>
+									            <li>Innerer Struktur</li>
+									            <li>Striktheit der Schichten</li>
+									            <li>Charakteristik von Bausteinen</li>
+									        </ul>
+									    </ul>
+									    <h2 class="half-width" style="margin-top: 2em;"><strong>→</strong> Entscheidung für ein Pattern übernimmt diese Aussagen <strong>für die eigene Architektur !!!</strong> </h2>
+									
+									</section>
+									
+									<section data-markdown="slides/40-Mythos-begegnen/55-blindspots.md" data-separator-notes="^Note:"></section>		<section class="section-title"
+									         data-background-image="./images/wtf.png"
+									         data-background-size="45% auto"
+									         data-background-position="right">
+									    <h1 style="margin-top: 0.5em">Wie begegnen wir dem Mythos?</h1>
+									    <ul class="half-width">
+									        <li>Tradefoffs bewusst behandeln, z.B.:</li>
+									        <ul>
+									            <li>Benefit von Abstraktion durch weitere Schichten?</li>
+									            <li>Ist “Schichten austauschen können” ein relevantes Qualitätsmerkmal?</li>
+									        </ul>
+									        <li>Strukturierung der Domain ist wichtig</li>
+									        <ul>
+									            <li><strong>Alle 3 Pattern sind dahingehend agnostisch </strong></li>
+									        </ul>
+									        <li>Alternantiven kennen, z.B. <strong>Vertical Slice Architecture</strong></li>
+									    </ul>
+									    <h2 class="half-width" style="margin-top: 1em;"><strong>→</strong> Kenne die Qualitätsziele deiner Architektur <strong>!!!</strong> </h2>
+									</section>
+						</section>
+			</div>
+		</div>
+
+		<script src="../../assets/vendor/revealjs/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: false,
+				hash: true,
+				history: true,
+				width: 1280,
+				height: 720,
+				margin: 0.1,
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: '../../assets/vendor/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../../assets/vendor/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					// { src: '../../assets/vendor/revealjs/plugin/highlight/highlight.js', async: true },
+					// { src: '../../assets/vendor/revealjs/plugin/search/search.js', async: true },
+					// { src: '../../assets/vendor/revealjs/plugin/zoom-js/zoom.js', async: true },
+					{ src: '../../assets/vendor/revealjs/plugin/notes/notes.js', async: true },
+					{ src: '../../assets/vendor/revealjs/plugin/notes-server/client.js', async: true },
+					{ src: '../../assets/vendor/prism.js', async: true }
+					// { src: 'https://platform.twitter.com/widgets.js', async: true }
+				]
+			})
+		</script>
+	</body>
+</html>
