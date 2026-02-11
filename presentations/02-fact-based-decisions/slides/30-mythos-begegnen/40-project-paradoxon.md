@@ -1,1 +1,0 @@
-# Das Projekt-Paradoxon
