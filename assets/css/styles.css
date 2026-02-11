@@ -537,7 +537,7 @@ pre + pre {
 /* Bild maximal an Foliengröße anpassen */
 .reveal .fit-slide {
   max-width: 100%;
-  max-height: 65vh; /* Höhe der Folie */
+  max-height: 60vh; /* Höhe der Folie */
   width: auto;
   height: auto;
   display: block;
@@ -547,9 +547,9 @@ pre + pre {
 
 .reveal .slide-source {
   position: absolute;
-  bottom: 1.2rem;
+  bottom: 0.8rem;
   left: 1.5rem;
-  font-size: 0.6em;
+  font-size: 0.5em;
   opacity: 0.75;
   color: #fff;
   z-index: 10;
