@@ -12,4 +12,3 @@
 * "Das wusste ich nicht"-Momente häufen sich
 * Teams erzeugen versehentlich neue Abhängigkeiten
 * Qualitätsziele sind unklar oder variieren stark <!-- .element: class="highlight" -->
-l
