@@ -3,7 +3,7 @@
 # Symptome 
 
 * FUD <strong>Fear, Uncertainty, Doubt</strong>
-* Subotpimales Design
+* Suboptimales Design
 * endlose Diskussionen ...
 
 

@@ -3,7 +3,7 @@
 # Walking Skeleton
 
 - Demonstriert Tragfähigkeit des Architekturansatzes
-- “Intended to grow, Permanant Code”
+- “Intended to grow, Permanent Code”
 - für produktiven Einsatz entwickelt
 - verbindet (unvollständige) Bausteine auf belastbare Weise
 - Abgrenzung zu:

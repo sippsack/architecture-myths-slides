@@ -10,5 +10,5 @@ Prototyp soll zeigen, dass Idee funktioniert, z.b.
 
 <br />
 
-## **→** Wissen widerverwenden statt der Implementierung
+## **→** Wissen wiederverwenden statt der Implementierung
  

@@ -11,4 +11,4 @@ Qualitätsmodell für das Projekt
 
 
 
-→ Top Qualitätsziele und Merkmale bei <strong>allen</strong> Architekturentscheidungen berücksichtgen
+→ Top Qualitätsziele und Merkmale bei <strong>allen</strong> Architekturentscheidungen berücksichtigen

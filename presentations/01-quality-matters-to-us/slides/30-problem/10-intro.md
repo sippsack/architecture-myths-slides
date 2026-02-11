@@ -1,5 +1,7 @@
 # Was ist das Problem?
 
+![crash.png](./images/crash.png)<!-- .element: class="img-right" -->
+
 ## Wenn wir unsere Qualitätsziele nicht kennen…
 
 - entsteht trotzdem eine Architektur!
