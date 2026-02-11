@@ -407,7 +407,7 @@ pre + pre {
   display: inline-block;
   background: rgba(255, 235, 160, 0.85);
   color: #0a161b;
-  padding-right: 0.15em;
+  padding: 0.2em 0.2em 0.2em 0;
   border-radius: 6px;
   color: var(--background-color);
 }
