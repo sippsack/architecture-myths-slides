@@ -4,7 +4,7 @@
 
 - Qualitätsmodelle als Vorlage verwenden
     - Quality 42
-    - IS0 25010
+    - ISO 25010
 - Kontinuierlich betrachten, anpassen, erweitern
 - Informelle Beschreibungen sind ok
 
