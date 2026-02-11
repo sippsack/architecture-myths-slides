@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>#06 - Microservices sind moderner</title>
+			<meta name="description" content="… Monolithen sind technisch rückständig!">
+		<meta name="author" content="Falk Sippach">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="../../assets/vendor/revealjs/css/reset.css">
+		<link rel="stylesheet" href="../../assets/vendor/revealjs/css/reveal.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../../assets/vendor/prism-monokai.css">
+
+		<!-- Tidy Styles -->
+		<link rel="stylesheet" href="../../assets/css/styles.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../assets/vendor/revealjs/css/print/pdf.css' : '../../assets/vendor/revealjs/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+						<section data-markdown="slides/01-title.md" data-separator-notes="^Note:"></section>		<section>
+									<section data-background-image="./images/MythBusters-1200x701-freigestellt-mit-weiss-raum.webp">
+									    <h2>Eine Szene in einem ganz normalen DEV-Team ...</h2>
+									</section>		<section class="section-title" data-background-image="/assets/images/memes/mythbusters/jamie.png">
+										<h1>Monolithen sind doch längst überholt.</h1>
+									</section>		<section class="section-title" data-background-image="/assets/images/memes/mythbusters/adam.png" data-background-position="left">
+										<h1 style="margin-left:55%">Komisch, viele davon laufen stabil seit Jahren.</h1>
+									</section>
+									<section class="section-title" data-background-image="/assets/images/memes/mythbusters/jamie.png">
+									<h1>Microservices sind aber viel moderner!</h1>
+									</section>
+									<section class="section-title" data-background-image="/assets/images/memes/mythbusters/adam.png" data-background-position="left">
+									<h1 style="margin-left:55%">Aber nur, wenn die Probleme dazu passen.</h1>
+									</section>
+									<section class="section-title" data-background-image="/assets/images/memes/mythbusters/jamie.png">
+									    <h1>Ein Monolith bremst uns aus.</h1>
+									</section>
+									<section class="section-title" data-background-image="/assets/images/memes/mythbusters/adam.png" data-background-position="left">
+									    <h1 style="margin-left:55%">Ein modularer Monolith bremst niemanden aus.</h1>
+									</section>
+						</section>
+						<section data-markdown="slides/30-Was-ist-das-Problem.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/40-Symptome.md" data-separator-notes="^Note:"></section>		<section>
+									<section data-markdown="slides/50-Mythos-begegnen/51-Mythos-begegnen.md" data-separator-notes="^Note:"></section>		<section class="slide-quote">
+										<blockquote>
+											<h1><strong>Microservices</strong> lösen bestimmte Probleme brillant – und schaffen gleichzeitig neue.</h1>
+											<cite>- Erkenntnisse nach dem Hype</cite>
+										</blockquote>
+										<aside class="notes">
+										</aside>
+									</section>
+									<section data-markdown="slides/50-Mythos-begegnen/53-Charakteristische-Eigenschaften.md" data-separator-notes="^Note:"></section>		<section class="slide-quote">
+										<blockquote>
+											<h1><strong>If you can’t build</strong> a well-structured monolith, what makes you think you can build a well-structured set of microservices?</h1>
+											<cite>- Simon Brown</cite>
+										</blockquote>
+										<aside class="notes">
+										</aside>
+									</section>
+									<section data-markdown="slides/50-Mythos-begegnen/57-Drei-Saeulen.md" data-separator-notes="^Note:"></section>		</section>
+			</div>
+		</div>
+
+		<script src="../../assets/vendor/revealjs/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: false,
+				hash: true,
+				history: true,
+				width: 1280,
+				height: 720,
+				margin: 0.1,
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: '../../assets/vendor/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../../assets/vendor/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					// { src: '../../assets/vendor/revealjs/plugin/highlight/highlight.js', async: true },
+					// { src: '../../assets/vendor/revealjs/plugin/search/search.js', async: true },
+					// { src: '../../assets/vendor/revealjs/plugin/zoom-js/zoom.js', async: true },
+					{ src: '../../assets/vendor/revealjs/plugin/notes/notes.js', async: true },
+					{ src: '../../assets/vendor/revealjs/plugin/notes-server/client.js', async: true },
+					{ src: '../../assets/vendor/prism.js', async: true }
+					// { src: 'https://platform.twitter.com/widgets.js', async: true }
+				]
+			})
+		</script>
+	</body>
+</html>
