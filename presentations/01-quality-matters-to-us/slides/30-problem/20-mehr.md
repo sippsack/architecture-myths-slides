@@ -2,7 +2,7 @@
 
 ## Qualitätsanforderungen prägen Architektur stärker als funktionale Anforderungen<!-- .element: class="half-width" -->
 
-Treiber für Architekturentscheidungen
+Wesentlicher Treiber für <strong>Architekturentscheidungen</strong>
   - langlebig
   - schwer zu ändern
   - Aufwendig / Teuer
