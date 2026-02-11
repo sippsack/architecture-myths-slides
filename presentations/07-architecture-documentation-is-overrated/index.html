@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>#07 - Architekturdokumentation ist überbewertet</title>
+			<meta name="description" content="… der Code ist Dokumentation genug!">
+		<meta name="author" content="Falk Sippach">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" href="../../assets/vendor/revealjs/css/reset.css">
+		<link rel="stylesheet" href="../../assets/vendor/revealjs/css/reveal.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../../assets/vendor/prism-monokai.css">
+
+		<!-- Tidy Styles -->
+		<link rel="stylesheet" href="../../assets/css/styles.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../assets/vendor/revealjs/css/print/pdf.css' : '../../assets/vendor/revealjs/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+						<section data-markdown="slides/01-title.md" data-separator-notes="^Note:"></section>		<section>
+									<section data-background-image="./images/MythBusters-1200x701-freigestellt-mit-weiss-raum.webp">
+									    <h2>Eine Szene in einem ganz normalen DEV-Team ...</h2>
+									</section>		<section class="section-title" data-background-image="/assets/images/memes/mythbusters/jamie.png">
+										<h1>Dokumentation? Die liest doch keiner.</h1>
+									</section>		<section class="section-title" data-background-image="/assets/images/memes/mythbusters/adam.png" data-background-position="left">
+										<h1 style="margin-left:55%">Nur, wenn sie schlecht ist.</h1>
+									</section>
+									<section class="section-title" data-background-image="/assets/images/memes/mythbusters/jamie.png">
+									<h1>Ich mache das lieber im Kopf.</h1>
+									</section>
+									<section class="section-title" data-background-image="/assets/images/memes/mythbusters/adam.png" data-background-position="left">
+									<h1 style="margin-left:55%">Blöd, dass dein Kopf nicht versioniert ist.</h1>
+									</section>
+									<section class="section-title" data-background-image="/assets/images/memes/mythbusters/jamie.png">
+									    <h1>Außerdem reicht der Code als Dokumentation.</h1>
+									</section>
+									<section class="section-title" data-background-image="/assets/images/memes/mythbusters/adam.png" data-background-position="left">
+									    <h1 style="margin-left:55%">Nur für Details – nicht für Zusammenhänge.</h1>
+									</section>
+						</section>
+						<section>
+									<section data-markdown="slides/30-probleme/31-Was-ist-das-Problem.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/30-probleme/32-Agiles-Manifest-1.md" data-separator-notes="^Note:"></section>		<section class="slide-quote">
+										<blockquote>
+											<h1>Der Quelltext erzählt nicht <strong>die ganze Geschichte</strong>.</h1>
+											<cite>- Simon Brown</cite>
+										</blockquote>
+										<aside class="notes">
+										</aside>
+									</section>
+									<section data-markdown="slides/30-probleme/34-Agiles-Manifest-2.md" data-separator-notes="^Note:"></section>		<section data-markdown="slides/30-probleme/35-Sichtbar-machen.md" data-separator-notes="^Note:"></section>		</section>
+						<section data-markdown="slides/40-Symptome.md" data-separator-notes="^Note:"></section>		<section>
+									<section data-markdown="slides/50-Mythos-begegnen/51-Mythos-begegnen.md" data-separator-notes="^Note:"></section>		<section>
+									    <h2>Prgramatisch dokumentieren</h2>
+									
+									    <div class="cols-4 center-vertical">
+									        <div class="col-item">
+									            <img class="icon" src="/assets/images/icons/target-group.svg" alt="" />
+									            <div class="label">An Zielgruppen orientiert</div>
+									        </div>
+									
+									        <div class="col-item">
+									            <img class="icon" src="/assets/images/icons/fire.svg" alt="" />
+									            <div class="label">Nicht zu viel, stets aktuell halten</div>
+									        </div>
+									
+									        <div class="col-item">
+									            <img class="icon" src="/assets/images/icons/jigsaw.svg" alt="" />
+									            <div class="label">Modularisieren, referenzieren, generieren</div>
+									        </div>
+									
+									        <div class="col-item">
+									            <img class="icon" src="/assets/images/icons/dance.svg" alt="" />
+									            <div class="label">Feedback einholen und einarbeiten</div>
+									        </div>
+									    </div>
+									</section>
+									<section data-markdown="slides/50-Mythos-begegnen/53-Docs-as-Code.md" data-separator-notes="^Note:"></section>		<section>
+									    <h2>Lebendige Dokumentation</h2>
+									
+									    <div class="cols-3 center-vertical">
+									        <div class="col-item">
+									            <img class="icon" src="/assets/images/icons/stamp.svg" alt="" />
+									            <div class="label">Validierung der Architekturregeln</div>
+									        </div>
+									
+									        <div class="col-item">
+									            <img class="icon" src="/assets/images/icons/concept.svg" alt="" />
+									            <div class="label">Explizite Architektur-konzepte im Code</div>
+									        </div>
+									
+									        <div class="col-item">
+									            <img class="icon" src="/assets/images/icons/document.svg" alt="" />
+									            <div class="label">Transparenz durch Dokumentation</div>
+									        </div>
+									    </div>
+									</section>
+						</section>
+			</div>
+		</div>
+
+		<script src="../../assets/vendor/revealjs/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: false,
+				hash: true,
+				history: true,
+				width: 1280,
+				height: 720,
+				margin: 0.1,
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: '../../assets/vendor/revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: '../../assets/vendor/revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					// { src: '../../assets/vendor/revealjs/plugin/highlight/highlight.js', async: true },
+					// { src: '../../assets/vendor/revealjs/plugin/search/search.js', async: true },
+					// { src: '../../assets/vendor/revealjs/plugin/zoom-js/zoom.js', async: true },
+					{ src: '../../assets/vendor/revealjs/plugin/notes/notes.js', async: true },
+					{ src: '../../assets/vendor/revealjs/plugin/notes-server/client.js', async: true },
+					{ src: '../../assets/vendor/prism.js', async: true }
+					// { src: 'https://platform.twitter.com/widgets.js', async: true }
+				]
+			})
+		</script>
+	</body>
+</html>
