@@ -1,4 +1,5 @@
 # Was ist das Problem?
+<!-- .slide: data-background="#660000" -->
 
 <div><img src="/assets/images/icons/misunderstand.svg" class="icon-round"> Implizites Wissen, Missverständnisse</div> <!-- .element: class="fragment bigger" -->
 <div><img src="/assets/images/icons/coding.svg" class="icon-round"> Lange Einarbeitungszeiten von neuen Kollegen</div> <!-- .element: class="fragment bigger" -->
