@@ -1,4 +1,5 @@
 # Symptome 
+<!-- .slide: data-background="#660000" -->
 
 <img src="./images/icons/symptom.svg" class="img-right transparent">
 
