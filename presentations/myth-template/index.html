@@ -18,6 +18,28 @@
 		<!-- Tidy Styles -->
 		<link rel="stylesheet" href="../../assets/css/styles.css">
 
+		<style>
+			.home-link {
+				position: fixed;
+				left: 0.75rem;
+				bottom: 0.75rem;
+				z-index: 20;
+				opacity: 0.8;
+				transition: opacity 0.2s ease;
+			}
+
+			.home-link:hover,
+			.home-link:focus {
+				opacity: 1;
+			}
+
+			.home-link img {
+				width: 24px;
+				height: 24px;
+				display: block;
+				filter: brightness(0) saturate(100%) invert(60%) sepia(3%) saturate(223%) hue-rotate(170deg) brightness(87%) contrast(85%);
+			}
+		</style>
 		<!-- Printing and PDF exports -->
 		<script>
 			var link = document.createElement( 'link' );
@@ -56,6 +78,10 @@
 									<section data-markdown="slides/40-Mythos-begegnen/10-Mythos-begegnen.md" data-separator-notes="^Note:"></section>		</section>
 			</div>
 		</div>
+
+		<a class="home-link" href="../../index.html" aria-label="Zur Startseite">
+			<img src="/assets/images/icons/home.svg" alt="Zur Startseite">
+		</a>
 
 		<script src="../../assets/vendor/revealjs/reveal.js"></script>
 		<script>
