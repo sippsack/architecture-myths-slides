@@ -1,4 +1,5 @@
 # Was ist das Problem?
+<!-- .slide: data-background="#660000" -->
 
 <div><img src="/assets/images/icons/compass.svg" class="icon-round"> Fehlende technische Ausrichtung</div> <!-- .element: class="fragment bigger" -->
 <div><img src="/assets/images/icons/puzzle.svg" class="icon-round"> Inkonsistente Entscheidungen</div> <!-- .element: class="fragment bigger" -->
