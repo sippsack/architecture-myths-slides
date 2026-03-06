@@ -1,4 +1,5 @@
 # Was ist das Problem?
+<!-- .slide: data-background="#660000" -->
 
 <div><img src="/assets/images/icons/ball-of-wool.svg" class="icon-round"> Distributed Big Ball of Mud</div> <!-- .element: class="fragment bigger" -->
 <div><img src="/assets/images/icons/work.svg" class="icon-round"> Komplexität wird unterschätzt</div> <!-- .element: class="fragment bigger" -->

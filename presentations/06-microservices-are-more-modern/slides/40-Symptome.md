@@ -1,6 +1,7 @@
 # Symptome 
+<!-- .slide: data-background="#660000" -->
 
-<img src="./images/icons/symptom.svg" class="img-right transparent">
+<img src="/assets/images/icons/symptom.svg" class="img-right transparent">
 
 * Microservices als Default-Lösung
 * Verteilung ohne klaren fachlichen Schnitt <!-- .element: class="highlight" -->
