@@ -5,4 +5,7 @@
 <div><img src="/assets/images/icons/shield.svg" class="icon-round"> Einzelverantwortung vs. kollaborative Architekturarbeit</div> <!-- .element: class="fragment bigger" -->
 <div><img src="/assets/images/icons/education.svg" class="icon-round"> Entscheidungsgrundlagen und Alternativen dokumentieren</div> <!-- .element: class="fragment bigger" -->
 
+<aside class="notes">
 
+
+</aside>
