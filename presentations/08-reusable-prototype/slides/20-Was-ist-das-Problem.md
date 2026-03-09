@@ -1,3 +1,5 @@
+<!-- .slide: data-background="#330000" -->
+
 # Was ist das Problem?
 
 <div>
@@ -10,13 +12,13 @@ Prototypen müssen <strong>schnell</strong> Erkenntnisse liefern
 </div>
 <div class="fragment">
 
-- → Alle Qualitätsanforderungen müssen der Geschwindigkeit untergeordnet werden.
+- → Alle Qualitätsanforderungen bewusst Geschwindigkeit unterordnen
   - Sicherheit
   - Wiederverwendbarkeit
   - Testbarkeit
   - ...
 
-<!--  TODO: NAch hinten schieben -->
-
-<h2> <strong>→</strong> Prototypen sind Demonstrationsobjekte und nicht für den produktiven Einsatz geeignet</h2>
+<h2 class="highlight"> <strong>→</strong> Prototypen == Demonstrationsobjekte != produktive Reife</h2>
 </div>
+
+Note:
