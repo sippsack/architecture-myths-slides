@@ -1,4 +1,3 @@
-<!-- .slide: data-background="#330000" -->
 # Was ist das Problem?
 
 <h2 style="margin-bottom:0">Fakten vs <strong>Annahmen</strong></h2>
