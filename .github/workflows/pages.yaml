@@ -34,6 +34,7 @@ jobs:
           mkdir _site
           cp index.html _site/
           cp -r assets presentations _site/
+          mkdir -p _site/theme && cp -r theme/fonts _site/theme/
           touch _site/.nojekyll
 
       - uses: actions/configure-pages@v5

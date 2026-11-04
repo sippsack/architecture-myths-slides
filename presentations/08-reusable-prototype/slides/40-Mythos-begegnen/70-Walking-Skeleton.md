@@ -1,4 +1,4 @@
-<img src="/assets/images/icons/halloween.svg" class="img-right" />
+<img src="../../assets/images/icons/halloween.svg" class="img-right" />
 
 # Walking Skeleton
 

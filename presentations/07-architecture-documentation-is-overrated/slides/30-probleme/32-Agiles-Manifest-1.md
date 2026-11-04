@@ -1,6 +1,6 @@
 # Agiles Manifest 
 
-<img src="/assets/images/icons/manifest.svg" class="img-right transparent">
+<img src="../../assets/images/icons/manifest.svg" class="img-right transparent">
 
 Individuen und Interaktion **VOR** Prozessen und Werkzeugen
 

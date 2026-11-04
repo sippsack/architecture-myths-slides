@@ -1,4 +1,4 @@
-<img src="/assets/images/icons/bulb.png" class="img-right"/>
+<img src="../../assets/images/icons/bulb.png" class="img-right"/>
 
 # Proof of Concept (POC)
 

@@ -2,7 +2,7 @@
 
 # Symptome
 
-<img src="/assets/images/icons/symptom.svg" class="img-right">
+<img src="../../assets/images/icons/symptom.svg" class="img-right">
 
 ## Verbreitete Fehlannahmen über Softwareentwicklung:
 

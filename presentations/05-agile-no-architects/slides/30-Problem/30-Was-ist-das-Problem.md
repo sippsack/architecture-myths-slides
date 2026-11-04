@@ -1,11 +1,11 @@
 # Was ist das Problem?
 <!-- .slide: data-background="#660000" -->
 
-<div><img src="/assets/images/icons/compass.svg" class="icon-round"> Fehlende technische Ausrichtung / langfristige Perspektive</div> <!-- .element: class="fragment bigger" -->
-<div><img src="/assets/images/icons/puzzle.svg" class="icon-round"> Inkonsistente Entscheidungen</div> <!-- .element: class="fragment bigger" -->
-<div><img src="/assets/images/icons/chaos.svg" class="icon-round"> Zufällige Architektur</div> <!-- .element: class="fragment bigger" -->
-<div><img src="/assets/images/icons/network.svg" class="icon-round"> Koordinationsprobleme zwischen Teams</div> <!-- .element: class="fragment bigger" -->
-<div><img src="/assets/images/icons/dart.svg" class="icon-round"> Fehlende Qualitätskriterien & Leitplanken</div> <!-- .element: class="fragment bigger" -->
+<div><img src="../../assets/images/icons/compass.svg" class="icon-round"> Fehlende technische Ausrichtung / langfristige Perspektive</div> <!-- .element: class="fragment bigger" -->
+<div><img src="../../assets/images/icons/puzzle.svg" class="icon-round"> Inkonsistente Entscheidungen</div> <!-- .element: class="fragment bigger" -->
+<div><img src="../../assets/images/icons/chaos.svg" class="icon-round"> Zufällige Architektur</div> <!-- .element: class="fragment bigger" -->
+<div><img src="../../assets/images/icons/network.svg" class="icon-round"> Koordinationsprobleme zwischen Teams</div> <!-- .element: class="fragment bigger" -->
+<div><img src="../../assets/images/icons/dart.svg" class="icon-round"> Fehlende Qualitätskriterien & Leitplanken</div> <!-- .element: class="fragment bigger" -->
 
 Note:
 1) Fehlende technische Ausrichtung

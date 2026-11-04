@@ -2,7 +2,7 @@
 
 # Symptome 
 
-<img src="/assets/images/icons/symptom.svg" class="img-right transparent">
+<img src="../../assets/images/icons/symptom.svg" class="img-right transparent">
 
 - Langwierige Diskussionen über getroffene Entscheidungen
 - Entscheidungen müssen häufig revidiert werden

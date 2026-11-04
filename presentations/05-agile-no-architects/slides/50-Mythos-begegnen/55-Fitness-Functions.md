@@ -1,6 +1,6 @@
 # Fitness Functions 
 
-<img src="/assets/images/icons/fitness.svg" alt="Evolutionstheorie" class="fit-slide img-right transparent"/>
+<img src="../../assets/images/icons/fitness.svg" alt="Evolutionstheorie" class="fit-slide img-right transparent"/>
 
 Eine Fitness Function misst objektiv, wie gut eine Lösung die an sie gesetzten Ziele erreicht.
 

@@ -1,6 +1,6 @@
 # Agiles Manifest andersrum 
 
-<img src="/assets/images/icons/manifest.svg" class="img-right transparent">
+<img src="../../assets/images/icons/manifest.svg" class="img-right transparent">
 
 **So viel** Prozessen und Werkzeugen **FÜR** Individuen und Interaktion
 

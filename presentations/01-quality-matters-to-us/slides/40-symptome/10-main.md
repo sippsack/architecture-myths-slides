@@ -1,6 +1,6 @@
 # Symptome
 
-<img src="/assets/images/icons/symptom.svg" class="img-right transparent">
+<img src="../../assets/images/icons/symptom.svg" class="img-right transparent">
 
 - Keine gemeinsame Sprache für Qualität
 - Priorität von Qualitätszielen unklar

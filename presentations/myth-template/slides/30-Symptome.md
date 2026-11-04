@@ -1,6 +1,6 @@
 # Symptome 
 
-<img src="/assets/images/icons/symptom.svg" class="img-right">
+<img src="../../assets/images/icons/symptom.svg" class="img-right">
 
 * Symptom 1
 * Symptom 2

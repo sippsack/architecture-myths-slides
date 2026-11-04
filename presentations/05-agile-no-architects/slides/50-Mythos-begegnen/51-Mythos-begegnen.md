@@ -1,10 +1,10 @@
 # Wie begegnen wir dem Mythos? 
 
-<div><img src="/assets/images/icons/assign.svg" class="icon-round"> Architektur als Teamaufgabe</div> <!-- .element: class="fragment bigger" -->
-<div><img src="/assets/images/icons/meeting.svg" class="icon-round"> Moderation statt Vorgaben</div> <!-- .element: class="fragment bigger" -->
-<div><img src="/assets/images/icons/instructions.svg" class="icon-round"> Gemeinsame Architekturprinzipien</div> <!-- .element: class="fragment bigger" -->
-<div><img src="/assets/images/icons/loupe.svg" class="icon-round"> Transparenz</div> <!-- .element: class="fragment bigger" -->
-<div><img src="/assets/images/icons/evolution.svg" class="icon-round"> Evolutionäre Architektur fördern</div> <!-- .element: class="fragment bigger" -->
+<div><img src="../../assets/images/icons/assign.svg" class="icon-round"> Architektur als Teamaufgabe</div> <!-- .element: class="fragment bigger" -->
+<div><img src="../../assets/images/icons/meeting.svg" class="icon-round"> Moderation statt Vorgaben</div> <!-- .element: class="fragment bigger" -->
+<div><img src="../../assets/images/icons/instructions.svg" class="icon-round"> Gemeinsame Architekturprinzipien</div> <!-- .element: class="fragment bigger" -->
+<div><img src="../../assets/images/icons/loupe.svg" class="icon-round"> Transparenz</div> <!-- .element: class="fragment bigger" -->
+<div><img src="../../assets/images/icons/evolution.svg" class="icon-round"> Evolutionäre Architektur fördern</div> <!-- .element: class="fragment bigger" -->
 
 Note:
 

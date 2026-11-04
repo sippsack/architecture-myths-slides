@@ -1,4 +1,4 @@
-<img src="/assets/images/photos/calliper.png" class="half-width img-right" />
+<img src="../../assets/images/photos/calliper.png" class="half-width img-right" />
 
 ## Qualitätsziele und Qualitätsmerkmale
 
